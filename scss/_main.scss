@@ -1,0 +1,95 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Oxygen', arial;
+    color: #FFF;
+    background-color: #FFF;
+}
+
+h1 {
+    font-family: 'Oxygen', arial;
+    margin: 0 0 35px;
+    /* text-transform: uppercase; */
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 75px;
+}
+
+h2 {
+    font-family: 'Oxygen', arial;
+    margin: 0 0 35px;
+    /* text-transform: uppercase; */
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 45px;
+    color:#fff
+}
+
+p {
+    font-family: 'Oxygen', arial;
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.hero-main {
+    background: url('/images/hero-main.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    height:800px;
+    text-align: center;
+}
+
+.hero-secondary {
+    background: url('/images/hero-girl-with-glasses.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: scroll;
+    height:500px;
+    text-align: center;
+}
+
+.main-title {
+    font-family: 'Oxygen', arial;
+    margin-top: 250px;
+}
+
+.secondary-title {
+    font-family: 'Oxygen', arial;
+    margin-top: 0;
+}
+
+.about-section {
+    padding: 0 75px;
+}
+
+/* HELPERS */
+.center-text {
+    text-align: center;
+}
+
+/* OVER RIDES */
+a {
+    color: #FFFFFF;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+.top-bar, .top-bar ul {
+    background-color: #000000;
+}
+
+.callout {
+    background-color: black;
+    border: 1px solid rgba(10, 10, 10, 0.25);
+    border-radius: 0;
+    color: #0a0a0a;
+    margin: 0 0 1rem;
+    padding: 1rem;
+    position: relative;
+}
