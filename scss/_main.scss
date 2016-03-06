@@ -13,6 +13,7 @@ h1 {
     font-weight: 700;
     letter-spacing: 1px;
     font-size: 75px;
+    text-shadow: 5px 5px 5px #000000;
 }
 
 h2 {
@@ -60,6 +61,12 @@ p {
 
 .about-section {
     padding: 0 75px;
+    min-height: 500px;
+}
+
+.lessons-section {
+    padding: 0 75px;
+    min-height: 500px;
 }
 
 /* HELPERS */
@@ -84,12 +91,11 @@ a {
     background-color: #000000;
 }
 
-.callout {
+.callout-section {
     background-color: black;
     border: 1px solid rgba(10, 10, 10, 0.25);
     border-radius: 0;
     color: #0a0a0a;
-    margin: 0 0 1rem;
-    padding: 1rem;
-    position: relative;
+    margin: 0 0;
+    padding: 25px 25px;
 }
