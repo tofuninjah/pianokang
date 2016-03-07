@@ -9,20 +9,24 @@
         <link rel="stylesheet" href="css/app.css">
     </head>
     <body>
-        <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
-            <button class="menu-icon" type="button" data-toggle></button>
-            <div class="title-bar-title">Menu</div>
-        </div>
+        <div id="sticky-nav" data-sticky-container>
+            <div class="sticky" data-sticky data-margin-top="0">
+                <div class="title-bar" data-responsive-toggle="menu" data-hide-for="medium">
+                    <button class="menu-icon" type="button" data-toggle></button>
+                    <div class="title-bar-title">Menu</div>
+                </div>
 
-        <div class="top-bar" id="example-menu">
-            <div class="top-bar-left">
-                <ul class="dropdown menu" data-dropdown-menu>
-                    <li class="menu-text">Hyejeong Kang Piano</li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#lessons">Lessons</a></li>
-                    <li><a href="#locations">Locations</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+                <div class="top-bar" id="menu">
+                    <div class="top-bar-left">
+                        <ul class="dropdown menu" data-dropdown-menu>
+                            <li class="menu-text">Hyejeong Kang Piano</li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#lessons">Lessons</a></li>
+                            <li><a href="#locations">Locations</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -34,10 +38,10 @@
             </div>
         </div>
 
-<div class="callout-section">
-<h2 id="about" class="center-text"><i class="fa fa-music"></i> About <i class="fa fa-music"></i></h2>
-<p class="center-text white">Private piano and violin lessons by an experienced piano majored instructor with over 30 years of teaching experience in Hawaii and Korea</p>
-</div>
+        <div class="callout-section">
+            <h2 id="about" class="center-text"><i class="fa fa-music"></i> About <i class="fa fa-music"></i></h2>
+            <p class="center-text white">Private piano and violin lessons by an experienced piano majored instructor with over 30 years of teaching experience in Hawaii and Korea</p>
+        </div>
 
         <div class="row expanded about-section">
 
@@ -173,7 +177,7 @@
                         <!-- section header -->
                         <header>
                             <div class="container">
-                                <h5><b>Contact information</b></h5>
+                                <h5 class="black"><b>Contact information</b></h5>
                                 <!--<p>sub-text for contact information!</p>-->
                             </div><!-- end .container -->
                         </header>
@@ -190,8 +194,7 @@
                                             <input type="text" class="required" name="email" value="Email" title="Email" />
                                             <input type="text" name="subject" value="Subject" title="Subject" />
                                             <textarea name="message" class="required" id="message" title="Message">Message</textarea>
-                                            <input type="reset" class="send_btn" value="Clear form" />
-                                            <input class="send_btn" type="submit" value="Send message!">
+                                            <input class="button" type="submit" value="Send message!">
                                         </form>
                                     </div>
                                 </div>

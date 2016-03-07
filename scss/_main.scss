@@ -33,6 +33,11 @@ p {
     line-height: 1.5;
 }
 
+.sticky {
+    width: 100%;
+    opacity: .7;
+}
+
 .hero-main {
     background: url('/images/hero-main.jpeg') no-repeat center center fixed;
     background-size: cover;
@@ -134,6 +139,10 @@ a {
 
 .top-bar, .top-bar ul {
     background-color: #000000;
+}
+
+.sticky-container {
+    background-color: #000;
 }
 
 .callout-section {
