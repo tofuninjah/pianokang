@@ -41,6 +41,10 @@ p {
     text-align: center;
 }
 
+.primary {
+    margin: 35px 0;
+}
+
 .hero-secondary {
     background: url('/images/hero-girl-with-glasses.jpeg') no-repeat center center fixed;
     background-size: cover;
@@ -139,4 +143,7 @@ a {
     color: #0a0a0a;
     margin: 0 0;
     padding: 35px 35px;
+    background: url('/images/section-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: scroll;
 }
