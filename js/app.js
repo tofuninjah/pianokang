@@ -22,7 +22,7 @@ $('ul.dropdown.menu a').click(function(event) {
 
     $.smoothScroll({
 
-        offset: -80,
+        offset: -87,
 
         // one of 'top' or 'left'
         direction: 'top',
