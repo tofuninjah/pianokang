@@ -137,6 +137,10 @@ a {
     color: white;
 }
 
+.blue {
+    #54A0D3;
+}
+
 .top-bar, .top-bar ul {
     background-color: #000000;
 }
@@ -155,4 +159,37 @@ a {
     background: url('/images/section-bg.jpg') no-repeat center center fixed;
     background-size: cover;
     background-attachment: scroll;
+}
+
+table {
+    border-radius: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+table thead, table tbody, table tfoot {
+    background-color: #fefefe;
+    border: 1px solid #f1f1f1;
+}
+table caption {
+    font-weight: bold;
+    padding: 0.5rem 0.625rem 0.625rem;
+}
+table thead, table tfoot {
+    background: #f8f8f8 none repeat scroll 0 0;
+    color: #0a0a0a;
+}
+table thead tr, table tfoot tr {
+    background: transparent none repeat scroll 0 0;
+}
+table thead th, table thead td, table tfoot th, table tfoot td {
+    font-weight: bold;
+    padding: 0.5rem 0.625rem 0.625rem;
+    text-align: left;
+}
+table tbody tr:nth-child(2n) {
+    background-color: #f1f1f1;
+}
+table tbody th, table tbody td {
+    padding: 0.5rem 0.625rem 0.625rem;
+    color: black;
 }
