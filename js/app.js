@@ -45,7 +45,7 @@ $('ul.dropdown.menu a').click(function(event) {
         // speed can be a number or 'auto'
         // if 'auto', the speed will be calculated based on the formula:
         // (current scroll position - target scroll position) / autoCoeffic
-        speed: 700,
+        speed: 'auto',
 
         // autoCoefficent: Only used when speed set to "auto".
         // The higher this number, the faster the scroll speed
