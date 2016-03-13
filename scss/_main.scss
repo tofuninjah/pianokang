@@ -12,7 +12,7 @@ h1 {
     /* text-transform: uppercase; */
     font-weight: 700;
     letter-spacing: 1px;
-    font-size: 75px;
+    font-size: 70px;
     text-shadow: 5px 5px 5px #000000;
 }
 
@@ -22,7 +22,7 @@ h2 {
     /* text-transform: uppercase; */
     font-weight: 700;
     letter-spacing: 1px;
-    font-size: 45px;
+    font-size: 40px;
     color:#fff
 }
 
@@ -42,7 +42,7 @@ p {
     background: url('/images/hero-main.jpeg') no-repeat center center fixed;
     background-size: cover;
     background-attachment: fixed;
-    height:800px;
+    height:750px;
     text-align: center;
 }
 
@@ -54,19 +54,36 @@ p {
     background: url('/images/hero-girl-with-glasses.jpeg') no-repeat center center fixed;
     background-size: cover;
     background-attachment: scroll;
-    height:500px;
+    height:800px;
     text-align: center;
 }
 
+.hero-third {
+    background: url('/images/overhead-piano-coffee.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: scroll;
+    height:800px;
+    text-align: center;
+}
+
+/* TITLES */
+
 .main-title {
     font-family: 'Oxygen', arial;
-    margin-top: 250px;
+    margin-top: 200px;
 }
 
 .secondary-title {
     font-family: 'Oxygen', arial;
     margin-top: 0;
 }
+
+.third-title {
+    font-family: 'Oxygen', arial;
+    margin-top: 0;
+}
+
+/* SECTIONS */
 
 .about-section {
     padding: 0 75px;
@@ -235,4 +252,94 @@ table thead tr th {
     color: #FFFFFF;
     font-size: 1.2em;
     background-color: #9D9A8B;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    .primary {
+        margin: 10px 0;
+    }
+
+    .main-title {
+        font-family: 'Oxygen', arial;
+        margin-top: 25px;
+    }
+
+    .hero-main {
+        background: url('/images/hero-main.jpeg') no-repeat center center fixed;
+        background-size: cover;
+        background-attachment: fixed;
+        height:500px;
+        text-align: center;
+    }
+
+
+    .hero-secondary {
+        background: url('/images/hero-girl-with-glasses.jpeg') no-repeat center center fixed;
+        background-size: cover;
+        background-attachment: scroll;
+        height:250px;
+        text-align: center;
+    }
+
+    .hero-third {
+        background: url('/images/overhead-piano-coffee.jpeg') no-repeat center center fixed;
+        background-size: cover;
+        background-attachment: scroll;
+        height:250px;
+        text-align: center;
+    }
+
+    .about-section {
+        padding: 0 15px;
+        min-height: 500px;
+    }
+
+    .lessons-section {
+        padding: 0 15px;
+        min-height: 500px;
+    }
+
+    .locations-section {
+        padding: 5px 5px;
+        min-height: 500px;
+    }
+
+    .contact-section {
+        padding: 15px 25px;
+        min-height: 500px;
+    }
+
+    table {
+        border: 1px solid #9D9A8B;
+        border-radius: 0;
+        margin-bottom: 1rem;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+
+
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+
+
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+
+
 }

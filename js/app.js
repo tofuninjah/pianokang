@@ -22,7 +22,7 @@ $('ul.dropdown.menu a').click(function(event) {
 
     $.smoothScroll({
 
-        offset: -87,
+        offset: -37,
 
         // one of 'top' or 'left'
         direction: 'top',
@@ -49,7 +49,7 @@ $('ul.dropdown.menu a').click(function(event) {
 
         // autoCoefficent: Only used when speed set to "auto".
         // The higher this number, the faster the scroll speed
-        autoCoefficient: 1,
+        autoCoefficient: 2,
 
         // $.fn.smoothScroll only: whether to prevent the default click action
         preventDefault: true
