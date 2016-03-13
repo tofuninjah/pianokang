@@ -83,32 +83,41 @@
 
             <div class="large-12 columns">
                 <div class="primary callout">
-                    <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
-                </div>
-            </div>
-            <div class="large-6 medium-6 columns">
-                <div class="primary callout">
-                    <p>Six columns</p>
-                </div>
-            </div>
-            <div class="large-6 medium-6 columns">
-                <div class="primary callout">
-                    <p>Six columns</p>
-                </div>
-            </div>
-            <div class="large-4 medium-4 small-4 columns">
-                <div class="primary callout">
-                    <p>Four columns</p>
-                </div>
-            </div>
-            <div class="large-4 medium-4 small-4 columns">
-                <div class="primary callout">
-                    <p>Four columns</p>
-                </div>
-            </div>
-            <div class="large-4 medium-4 small-4 columns">
-                <div class="primary callout">
-                    <p>Four columns</p>
+                    <p>
+                        <ul class="ul-plain">
+
+                            <li> <i class="fa fa-check-circle fa-spaced"></i> Piano Lessons for people who already have a piano instructor</li>
+
+                            <li> <i class="fa fa-check-circle fa-spaced"></i> Piano Lessons for people who do not already have a private piano instructor</li>
+
+                            <li> <i class="fa fa-check-circle fa-spaced"></i> Piano Lesson for people who just want to review what they learned years ago</li>
+
+                            <li> <i class="fa fa-check-circle fa-spaced"></i> Piano Lessons for those who just want to try it out</li>
+
+                            <li> <i class="fa fa-check-circle fa-spaced"></i> Our Piano Lessons for those who want to learn basic music theory</li>
+
+                            <li> <i class="fa fa-check-circle fa-spaced"></i> Our Piano Lessons for those who have a very busy schedule</li>
+
+                            <li> <i class="fa fa-check-circle fa-spaced"></i> Our Piano Lessons for those who just want to learn at their own rate</li>
+
+                            <li> <i class="fa fa-check-circle fa-spaced"></i> Piano Lessons for people who want to learn in the privacy of their own home</li>
+
+                            <li> <i class="fa fa-check-circle fa-spaced"></i> Piano Lessons to expand your horizons!</li>
+
+                            <li> <i class="fa fa-check-circle fa-spaced"></i> Piano Lessons to increase your level of musicianship</li>
+
+                            <li> <i class="fa fa-check-circle fa-spaced"></i> Our Piano Lessons for people of all ages</li>
+
+                            <li> <i class="fa fa-check-circle fa-spaced"></i> Piano Lessons for people of all parts of the world!</li>
+
+                            <li> <i class="fa fa-check-circle fa-spaced"></i> Piano Lessons to increase your knowledge of notes on the keyboard</li>
+
+                            <li> <i class="fa fa-check-circle fa-spaced"></i> Piano Lessons to increase your knowledge of various rhythmic patterns</li>
+
+                            <li> <i class="fa fa-check-circle fa-spaced"></i> Piano Lessons just for You!</li>
+
+                        </uL>
+                    </p>
                 </div>
             </div>
         </div>
@@ -203,6 +212,13 @@
                 </table>
 
             </div>
+
+            <div class="large-12 columns center-text">
+                <p class="black">To schedule a private lesson: </p>
+                <a href="tel:8083710708"><input class="phone button" type="button" value="Call now!"></a>
+                <p class="phone black">(808) 371-0708</p>
+            </div>
+
         </div>
 
         <div class="callout-section">
@@ -210,17 +226,13 @@
         </div>
 
 
-        <div class="row expanded lessons-section">
-            <h5>Here&rsquo;s your basic grid:</h5>
+        <div class="row expanded contact-section">
 
-            <div class="large-12 columns">
-                <div class="primary">
-                    <p class="black"><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
-                </div>
-            </div>
             <div class="large-4 columns">
                 <div class="primary">
-                    <p class="black">Six columns</p>
+                    <p class="black">If you're interested in learning to play the piano, you can contact us directly through
+                        the site using the contact form. Or, call (808) 371-0708. We look forward to hearing from you and helping
+                        you acheive your piano playing goals!</p>
                 </div>
             </div>
             <div class="large-8 columns">
@@ -242,11 +254,12 @@
                                 <div class="col-md-12">
                                     <div id="note"></div>
                                     <div id="fields">
-                                        <form id="ajax-contact-form" action="#">
-                                            <input type="text" class="required" name="name" value="Name" title="Name" />
-                                            <input type="text" class="required" name="email" value="Email" title="Email" />
-                                            <input type="text" name="subject" value="Subject" title="Subject" />
-                                            <textarea name="message" class="required" id="message" title="Message">Message</textarea>
+                                        <form id="ajax-contact-form"  action="https://www.bluehost.com/bluemail" enctype="multipart/form-data" method="POST">
+                                            <input type="text" class="required" name="name" placeholder="Name" title="Name" required />
+                                            <input type="email" class="required" name="email" placeholder="Email" title="Email" required />
+                                            <input type="text" name="subject" placeholder="Subject" title="Subject" required />
+                                            <textarea name="message" class="required" id="message" title="Message" placeholder="Message" required></textarea>
+                                            <input type="hidden" name="sendtoemail" value="info@pianokang.com">
                                             <input class="button" type="submit" value="Send message!">
                                         </form>
                                     </div>

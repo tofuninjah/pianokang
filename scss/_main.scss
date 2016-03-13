@@ -83,6 +83,11 @@ p {
     min-height: 500px;
 }
 
+.contact-section {
+    padding: 75px 75px;
+    min-height: 500px;
+}
+
 #return-to-top {
     position: fixed;
     bottom: 20px;
@@ -156,6 +161,18 @@ a {
 
 .top-bar, .top-bar ul {
     background-color: #000000;
+}
+
+.phone {
+    font-size: 2em;
+}
+
+.ul-plain {
+    list-style-type: none;
+}
+
+.fa-spaced {
+    padding:5px;
 }
 
 .sticky-container {
